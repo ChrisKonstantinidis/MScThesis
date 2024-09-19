@@ -8,9 +8,7 @@ This GitHub project serves as a comprehensive summary of my Masters Thesis which
 
 Title: Urban Arterial Traffic Volume and Travel Time Estimation with Use of Data Driven Models
 
-Abstract:
-
-This work aims to develop traffic prediction models, with a specific focus on traffic volume and travel time 
+Abstract: This work aims to develop traffic prediction models, with a specific focus on traffic volume and travel time 
 of an urban arterial. These models are based on Machine Learning algorithms, which find frequent 
 application in the literature for various forecasting tasks. The traffic data that were utilized in the 
 development process were sourced from a road section of Alexandras Av. in Athens. Finally, a comparison 
