@@ -47,17 +47,17 @@ All the data used in the project is contained in this folder. Trafficdata2 is th
 
 PDFs folder:
 
-In this folder there are two Pdf files. The one named ... Is a condensed and translated version of my thesis. The results from the all the models are presented in the last pages. 
-The pdf named ... is a conference paper based on my thesis that I published at the IFAC..........
+1. "Urban-Arterial-Traffic-Volume-and-Travel-Time-Estimation-with-Use-of-Data-Driven-Models": This PDF offers a translated and condensed overview of the original thesis, covering the rationale, literature analysis, theoretical framework, methodology, and development of the selected models. The concluding section presents a detailed summary of the key findings and results.
+2. "Conference Paper": This PDF is the conference paper that was presented at the 17th IFAC Symposium on Control in Transportation Systems (CTS 2024), based on the original MSc thesis.
 
 Jupyternotebooks folder:
 
 This folder contains all the code that was utilized for the project. 
  
-Correlation + Statistical Analysis: Correlation between thetarget traffic variables is examined in this notebook. Also, some statistical analysis of the data was carried out in order to understand better the relationship of the variables and detect anomalies. In the case of traffic volume prediction, outlier handling was deemed as an appropriate solution to enhance performance of the models. This process is  described in detail in the thesis text.
+1. Correlation + Statistical Analysis: This notebook explores the correlations between the target traffic variables and conducts a statistical analysis of the data to better understand the relationships between variables and identify anomalies. The notebook delves into the outlier handling process, which was deemed crucial for enhancing the performance of the traffic volume prediction models, as described in detail in the thesis text.
 
-TrafficVolume_pred: A decision tree and a GBDT model were used to forecast traffic volume.
+2. TrafficVolume_pred: A decision tree and a Gradient Boosting Decision Tree (GBDT) model were employed to forecast traffic volume.
 
-TravelTime_pred: A decision tree, a GBDT model, the BPR function and a hybrid BPR-ML model were used to forecast travel times. 
-
-Supporting Plots: In this notebook there is code for several graphs that were constructed to provide clarity on the theoretical framework of the thesis.
+3. TravelTime_pred: This notebook presents the code for forecasting travel times using a decision tree, a GBDT model, the Bureau of Public Roads (BPR) function, and a hybrid BPR-ML model.
+  
+4. Supporting Plots: This notebook contains the code for various graphs that were constructed to illustrate the theoretical framework of the thesis.
